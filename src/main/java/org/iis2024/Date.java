@@ -15,6 +15,7 @@ import java.text.SimpleDateFormat;
  * Instances of this class are immutable, meaning that once a Date object is created, the day,
  * month, and year values cannot be changed.
  */
+private int NewStateVariableAsContributorTo_AryanSepasi ;
 public class Date {
   private final int day;
   private final int month;
@@ -45,6 +46,10 @@ public class Date {
    */
   public int getYear() {
     return year;
+  }
+
+  public void setSthAddedbyShahryarMirzaei(){
+    System.out.println("this is a method added by Shahryar Mirzaei The Owner.");
   }
 
   /**
